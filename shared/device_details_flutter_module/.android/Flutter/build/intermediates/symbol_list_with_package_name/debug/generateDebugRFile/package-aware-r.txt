@@ -1,0 +1,1 @@
+com.example.device_details_flutter_module

@@ -50,13 +50,10 @@ fun HomeContent(name: String, modifier: Modifier = Modifier) {
                 text = name,
             )
             Button(onClick = {
-                /* val intent = FlutterActivity
-                     .withCachedEngine("engine_0")
-                     .build(context)
-
-                 startActivity(context, intent, null)*/
+                val intent = android.content.Intent(context, FlutterEmbeddingActivity::class.java)
+                context.startActivity(intent)
             }) {
-                Text("View Device Information")
+                Text("View Device Information in Flutter")
             }
         }
     }

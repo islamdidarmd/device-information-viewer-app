@@ -25,12 +25,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="io.flutter.embedding.android.FlutterActivity"
+            android:name=".FlutterEmbeddingActivity"
             android:theme="@style/Theme.AddToAppExample"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:hardwareAccelerated="true"
-            android:windowSoftInputMode="adjustResize"
-            />
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>

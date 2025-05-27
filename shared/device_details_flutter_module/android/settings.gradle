@@ -1,0 +1,2 @@
+// Required for Android source integration with Flutter module
+rootProject.name = 'device_details_flutter_module'
