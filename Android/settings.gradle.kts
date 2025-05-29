@@ -23,7 +23,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "Device Info Viewer"
 include(":app")
-val filePath = settingsDir.parentFile.toString() + "/shared/device_details_flutter_module/.android/include_flutter.groovy"
+val filePath = settingsDir.parentFile.toString() + "/device_details_flutter_module/.android/include_flutter.groovy"
 if (File(filePath).exists()) {
     apply(from = filePath)
 } else {

@@ -15,7 +15,8 @@
 local.properties
 
 #flutter modules
-/shared/device_details_flutter_module/.dart_tool/
-/shared/device_details_flutter_module/build/
-/shared/device_details_flutter_module/.android/build/
+/device_details_flutter_module/.dart_tool/
+/device_details_flutter_module/build/
+/device_details_flutter_module/.android/build/
+/device_details_flutter_module/.android/plugins_build_output/
 
